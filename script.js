@@ -41,6 +41,3 @@ function iniciarSimulador() {
     alert("Valores inválidos. Por favor, insira valores numéricos válidos.");
   }
 }
-
-// Agora, você pode invocar o simulador quando o usuário realizar alguma ação, por exemplo:
-document.getElementById("simularBtn").addEventListener("click", iniciarSimulador);
