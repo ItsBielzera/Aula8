@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Simulador de Empréstimos</title>
 </head>
 <body>
-    <script src="./script.js"></script>
+    <h1>Simulador de Empréstimo</h1>
+  <div>
+    <label for="valorEmprestimo">Valor do Empréstimo:</label>
+    <input type="text" id="valorEmprestimo">
+  </div>
+  <div>
+    <label for="numParcelas">Número de Parcelas:</label>
+    <input type="text" id="numParcelas">
+  </div>
+  <div>
+    <label for="taxaJuros">Taxa de Juros (decimal):</label>
+    <input type="text" id="taxaJuros">
+  </div>
+  <button onclick="simularEmprestimo()">Simular Empréstimo</button>
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
